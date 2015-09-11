@@ -1,8 +1,11 @@
 .aboutme-body {
-	background-color: #E6E6FA;
+	background-color: #9370DB;
 }
 
 .daniellemcaruso {
 	font-size: 20px;
+	color: #F0F8FF;
+}
+.aboutme-paragraph {
 	color: #F0F8FF;
 }
