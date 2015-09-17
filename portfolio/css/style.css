@@ -1,13 +1,21 @@
 .aboutme-body {
 	background-color: #9370DB;
+	border: 20px black;
 }
 
 .daniellemcaruso {
 	font-size: 20px;
 	color: #F0F8FF;
 	font-family: Lucida Console;
+	text-align: center;
 }
 .aboutme-paragraph {
 	color: #F0F8FF;
 	font-family: Lucida Console;
 }
+.bullets {
+	color: #F0F8FF;
+	font-family: Lucida Console;
+	font-size: 10px;
+}
+
