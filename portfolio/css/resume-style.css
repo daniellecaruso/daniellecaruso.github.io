@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Advent Pro', sans-serif;
+}
+
+.container-resume {
+	background-color: #FA8072;
+	width: 800px;
+	margin: auto;
+	padding: 50px;
+}
+hr{
+	color: white;
+	margin: 50px 0;
+}
+
+
+
+.headline-main {
+	font-size: 36px;
+	font-weight: 700px;
+}
+
+
+.contact-link {
+	color: white;
+	text-decoration: none;
+}
+
+.contact-link:hover{
+	color: black;
+}
