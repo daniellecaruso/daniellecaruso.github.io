@@ -11,8 +11,15 @@ body {
 	padding: 50px;
 }
 
-@media screen and (min-width: 700px) {
-	body background-color: blue;
+@media screen and (min-width: 480px) {
+	body {
+		background-color: ;
+		width: 80%;
+		max-width: 1000px;
+}
+
+.headline-main{
+	font-size: 50px;
 }
 
 
@@ -21,7 +28,19 @@ hr{
 	margin: 50px 0;
 }
 
+.resume-navigation{
+	background-color: black;
+	height: 50px;
+}
 
+.resume-navigation li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.aboutme-link {
+	color: white;
+}
 
 .headline-main {
 	font-size: 36px;
