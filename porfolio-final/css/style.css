@@ -83,9 +83,19 @@ used media queries to increase the size */
 	height: 100px;
 	margin: auto;
 	line-height: 30px;
+	text-align: center;
 	
 }
 
+.main-containers {
+	background-color: #483D8B;
+	color: white;
+	width: 760px;
+	height: 1000px;
+	margin: auto;
+	line-height: 30px;
+	
+}
 /*Here's our media querie which tells the browser that when
 the screen is at least 480px (which is 480px or higher) made
 the main container take up 80% of the screen.
