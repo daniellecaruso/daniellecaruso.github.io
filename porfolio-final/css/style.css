@@ -1,0 +1,173 @@
+
+/*clearfix class */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*body styles*/
+
+body {
+	background-color: #00008B;
+	font-family: Arial Narrow;
+	line-height: 1em;
+}
+
+/*Media query which says when the screen 
+is at least 700px width, that's 700px or bigger, 
+make the background blue. */
+@media screen and (min-width: 700px) {
+	
+	body {
+		background-color: #00008B;
+	}
+
+	.me{
+		width: 50%;
+		height: 50%;
+		margin: auto;
+		padding-left: 300px;
+	}
+
+	.ourlady{
+		width: 300px;
+		height: 600px;
+		margin: auto;
+		padding-left: 500px;
+	}
+}
+
+/*Navigation*/
+.portfolio-navigation {
+	height: 50px;
+	background-color: #4B0082;
+}
+
+.navigation-item {
+	display: inline-block;
+}
+
+.navigation-menu {
+	text-align: center;
+	padding: 20px;
+}
+
+.navigation-link {
+	padding: 0 10px;
+	text-decoration: none;
+	color: #DDA0DD;
+	transition: color 1s;
+
+}
+
+.navigation-link:hover {
+	color: white;
+}
+
+.is-active {
+	border-bottom: 5px solid white;
+}
+
+/*Defining the container widths */
+
+/*Because we're designing for mobile first,
+we'll start off with a container width of 240px and 
+used media queries to increase the size */
+.main-container {
+	background-color: #483D8B;
+	color: white;
+	width: 760px;
+	height: 100px;
+	margin: auto;
+	line-height: 30px;
+	
+}
+
+/*Here's our media querie which tells the browser that when
+the screen is at least 480px (which is 480px or higher) made
+the main container take up 80% of the screen.
+
+Because our browser could get REALLY wide and we don't want
+it to take up 80% in those situations, we've set a limit to
+how wide the container can be using the max-width property*/
+@media screen and (min-width: 480px) {
+	.portfolio-container {
+		width:80%;
+		max-width: 1000px;
+	}
+}
+
+hr {
+	color: red;
+	opacity: .6;
+}
+
+.headline-main {
+	font-size: 36px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+
+.headline-section {
+	padding: 5px 0;
+
+}
+
+.contact-link {
+	display: none;
+	text-decoration: none;
+	color: #b8b8b8;
+}
+
+@media screen and (min-width: 520px) {
+	.contact-link {
+		display: block;
+	}
+}
+
+.contact-link:hover {
+	color: #333333;
+}
+
+.headline-section {
+	font-size: 22px;
+	border-bottom:2px solid #d2d2d2;
+}
+
+/*Here we're hiding the resume-section initially because
+we don't want it to show up on mobile.*/
+.section-resume {
+	display: none;
+}
+
+/*Now we've .*/
+@media screen and (min-width: 430px) {
+	.section-resume {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
