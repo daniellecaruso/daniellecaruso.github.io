@@ -91,7 +91,7 @@ used media queries to increase the size */
 	background-color: #483D8B;
 	color: white;
 	width: 760px;
-	height: 1000px;
+	height: 400px;
 	margin: auto;
 	line-height: 30px;
 	
@@ -132,6 +132,9 @@ hr {
 	color: #b8b8b8;
 }
 
+.linkedin{
+	color: white;
+}
 @media screen and (min-width: 520px) {
 	.contact-link {
 		display: block;
